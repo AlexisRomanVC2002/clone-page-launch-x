@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6c7a89;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    text-align: justify;
+}
+
+h1{
+    color: #2a2f36;
+    font-size: 30px;
+}
+
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1{
+    cursor: pointer;
+}
+
+.navbar .navbar-items a{
+    text-decoration: none;
+    color: #2a2f36;
+    margin-left: 50px;
+}
+
+.navbar .navbar-items a:hover, .navbar h1:hover, a:hover {
+    color: #7158e2;
+    transition: .3s ease all;
+}
+
+main{
+    line-height: 30px;
+}
+
+main a{
+    text-decoration: none;
+    color: #2a2f36;
+}
+
+main .content-banner{
+    position: relative;
+    left: -150px
+}
+
+main .content-title{
+    margin: 50px auto;
+}
+
+section{
+    margin-top: 50px;
+}
+
+.objetives .list-objetives{
+    margin-top: 20px;
+}
+
+.procees-delivery ul{
+    margin-left: 30px;
+}
+
+.esqueme-mision .content-image-org{
+    text-align: center;
+
+}
+
+main .ir-mision{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
